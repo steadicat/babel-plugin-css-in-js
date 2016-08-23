@@ -23,6 +23,7 @@
     "node": ">=0.12"
   },
   "scripts": {
+    "preinstall": "make fast",
     "build": "make fast",
     "test": "make test",
     "lint": "make lint",
